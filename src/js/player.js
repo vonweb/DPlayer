@@ -17,7 +17,7 @@ import Controller from './controller';
 import Setting from './setting';
 import Comment from './comment';
 import HotKey from './hotkey';
-import ContextMenu from './contextmenu';
+// import ContextMenu from './contextmenu';
 import InfoPanel from './info-panel';
 import tplVideo from '../template/video.art';
 
@@ -128,7 +128,7 @@ class DPlayer {
 
         this.hotkey = new HotKey(this);
 
-        this.contextmenu = new ContextMenu(this);
+        // this.contextmenu = new ContextMenu(this);
 
         this.initVideo(this.video, this.quality && this.quality.type || this.options.video.type);
 

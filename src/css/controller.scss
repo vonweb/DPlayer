@@ -409,7 +409,8 @@
             height: 100%;
         }
         .dplayer-setting {
-            display: inline-block;
+            // display: inline-block;
+            display: none;
             height: 100%;
             .dplayer-setting-box {
                 position: absolute;
@@ -523,11 +524,11 @@
             display: inline-block;
             height: 100%;
             position: relative;
-            &:hover {
-                .dplayer-full-in-icon {
-                    display: block;
-                }
-            }
+            // &:hover {
+            //     .dplayer-full-in-icon {
+            //         display: block;
+            //     }
+            // }
             .dplayer-full-in-icon {
                 position: absolute;
                 top: -30px;
